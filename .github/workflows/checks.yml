@@ -5,6 +5,8 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
+  
 
 env:
   GO_VERSION: '1.17.9'
